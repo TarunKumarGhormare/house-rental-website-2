@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghar Sansaar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+
+<!-- icon link -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></head>
+
+<a  href="https://icons8.com/icon/8021/bed">Bed</a> icon by <a href="https://icons8.com">Icons8</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    
+    <!-- Navbar start -->
+    <section class="navbar">
+ 
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <p class="logo_text"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><path d="M 32 3 L 1 28 L 1.4921875 28.654297 C 2.8591875 30.477297 5.4694688 30.791703 7.2304688 29.345703 L 32 9 L 56.769531 29.345703 C 58.530531 30.791703 61.140812 30.477297 62.507812 28.654297 L 63 28 L 54 20.742188 L 54 8 L 45 8 L 45 13.484375 L 32 3 z M 32 13 L 8 32 L 8 56 L 56 56 L 56 35 L 32 13 z M 26 34 L 38 34 L 38 52 L 26 52 L 26 34 z"/></svg>  Ghar Sansaar</p>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mg-lg-0 text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#property">Properties</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+    
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link  " href="contact.html">Contact Us</a>
+                  </li>
+
+                  <li class="nav-item login-button">
+                    <a class="nav-link btn text-white bg-dark px-3 mx-3 rounded-0" href="login.html">Login</a>
+                  </li>
+                </ul>
+                
+                
+               
+              </div>
+            </div>
+          </nav>
+        
+    </section>
+
+<!-- Navbar Ends -->
+
+
+<!-- Carousel start -->
+
+
+<div id="home" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/images/house-1.jpg" class="d-block w-100-height" alt="...">
+
+      <div class="carousel-caption carousel1">
+        
+        <h5>Find Your Next Home</h5>
+        <div class="search-container mt-5">
+
+          <div class="row  row-gap-3">
+               
+               <div class="col-md-3 ">
+                 <input type="text" class="form-control search rounded-0" id="flaotingInput" placeholder="Search...">
+               </div>
+
+               <div class="col-md-4">
+                 <select class="form-select  rounded-0" aria-label="Default select example">
+                     <option selected>Property Type</option>
+                     <option value="1">Property Type 1</option>
+                     <option value="2">Property Type 2</option>
+                     <option value="3">Property Type 3</option>
+                 </select>
+               </div>
+
+               <div class="col-md-4">
+                 <select class="form-select  rounded-0" aria-label="Default select example">
+                     <option selected>Location</option>
+                     <option value="1">Location 1</option>
+                     <option value="2">Location 2</option>
+                     <option value="3">Location 3</option>
+                 </select>
+               </div>
+
+               <div class="col-md-1">
+                 <button class="btn btn-light  rounded-0">
+                   Search
+                 </button>
+               </div>
+
+
+          </div>
+      </div>
+    </div>
+    </div>
+   
+</div>
+
+
+<!-- Carousel End -->
+
+
+<!-- Property Listing Start -->
+
+<section  class="container" style="margin-top: 100px;" id="property">
+  <div class="d-flex">
+    <h2>Property Listing</h2>
+    <button type="button" class="btn text-white bg-dark btn-sm mb-2 p-2 ms-auto">Explore All  <span class="arrow-icon">&rarr;</span></button>
+    <!-- <h6 class="ms-auto">Explore All <span class="arrow-icon">&rarr;</span></h6> -->
+  </div>
+</section>
+
+<!-- Album start-->
+
+<div class="album py-5 bg-light ">
+  <div class="container bg-dark pb-3">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card border-0 rounded-0" style="width: 100%;">
+          <img src="./assets/images/home-6.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <p class="card-text text-muted">Uttrakhand, India </p>
+
+            <div class="d-flex justify-content-between ">
+              <p class="mx-3 text-muted card-text "> <i class="bi bi-car-front-fill"></i> Car</p>
+              <p class="mx-3 text-muted card-text "><i class="fa-solid fa-bed"></i> 3 Bed</p>
+              <p class="mx-3 text-muted card-text "> <i class="fa fa-compass"></i> 2000 Sqft</p>
+            </div>
+
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+              <h5 class="my-auto ms-auto border border-3 p-2">$20,13,048</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 rounded-0" style="width: 100%;">
+          <img src="./assets/images/home-2.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <p class="card-text text-muted">Uttrakhand, India </p>
+
+            <div class="d-flex justify-content-between ">
+              <p class="mx-3 text-muted card-text "> <i class="bi bi-car-front-fill"></i> Car</p>
+              <p class="mx-3 text-muted card-text "><i class="fa-solid fa-bed"></i> 3 Bed</p>
+              <p class="mx-3 text-muted card-text "> <i class="fa fa-compass"></i> 2000 Sqft</p>
+            </div>
+
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+              <h5 class="my-auto ms-auto border border-3 p-2">$20,13,048</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 rounded-0" style="width: 100%;">
+          <img src="./assets/images/home-3.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <p class="card-text text-muted">Uttrakhand, India </p>
+
+            <div class="d-flex justify-content-between ">
+              <p class="mx-3 text-muted card-text "> <i class="bi bi-car-front-fill"></i> Car</p>
+              <p class="mx-3 text-muted card-text "><i class="fa-solid fa-bed"></i> 3 Bed</p>
+              <p class="mx-3 text-muted card-text "> <i class="fa fa-compass"></i> 2000 Sqft</p>
+            </div>
+
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+              <h5 class="my-auto ms-auto border border-3 p-2">$20,13,048</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <div class="col">
+        <div class="card border-0 rounded-0" style="width: 100%;">
+          <img src="./assets/images/home-7.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <p class="card-text text-muted">Uttrakhand, India </p>
+
+            <div class="d-flex justify-content-between ">
+              <p class="mx-3 text-muted card-text "> <i class="bi bi-car-front-fill"></i> Car</p>
+              <p class="mx-3 text-muted card-text "><i class="fa-solid fa-bed"></i> 3 Bed</p>
+              <p class="mx-3 text-muted card-text "> <i class="fa fa-compass"></i> 2000 Sqft</p>
+            </div>
+
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+              <h5 class="my-auto ms-auto border border-3 p-2">$20,13,048</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 rounded-0" style="width: 100%;">
+          <img src="./assets/images/home-8.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <p class="card-text text-muted">Uttrakhand, India </p>
+
+            <div class="d-flex justify-content-between ">
+              <p class="mx-3 text-muted card-text "> <i class="bi bi-car-front-fill"></i> Car</p>
+              <p class="mx-3 text-muted card-text "><i class="fa-solid fa-bed"></i> 3 Bed</p>
+              <p class="mx-3 text-muted card-text "> <i class="fa fa-compass"></i> 2000 Sqft</p>
+            </div>
+
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+              <h5 class="my-auto ms-auto border border-3 p-2">$20,13,048</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 rounded-0" style="width: 100%;">
+          <img src="./assets/images/home-9.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <p class="card-text text-muted">Uttrakhand, India </p>
+
+            <div class="d-flex justify-content-between ">
+              <p class="mx-3 text-muted card-text "> <i class="bi bi-car-front-fill"></i> Car</p>
+              <p class="mx-3 text-muted card-text "><i class="fa-solid fa-bed"></i> 3 Bed</p>
+              <p class="mx-3 text-muted card-text "> <i class="fa fa-compass"></i> 2000 Sqft</p>
+            </div>
+
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+              <h5 class="my-auto ms-auto border border-3 p-2">$20,13,048</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Album end-->
+
+
+
+<!-- Property Listing End -->
+
+
+
+ <!-- OUR Services  -->
+ <div class="container px-4 py-5" id="services">
+  <h2 class="pb-2 border-bottom">Our Services</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
+        <i class="bi bi-emoji-smile px-2"></i>
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Comfort is our <br>Top Priority</h3>
+      <p>We understand that when it comes to your accommodation, comfort is non-negotiable. That's why we've made it our mission to provide you with the most comfortable and enjoyable rental experience possible.</p>
+      
+    </div>
+
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
+        <i class="bi bi-check-circle px-2"></i>
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Ease of Booking</h3>
+      <p> Rental websites offer a user-friendly interface that allows clients to browse through a wide range of properties and book their desired accommodation with just a few clicks. This convenience reduces the stress and hassle associated with traditional booking methods.</p>
+    </div>
+
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
+        <i class="bi bi-currency-rupee px-2"></i>
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Transparent Pricing</h3>
+      <p> Rental websites often provide upfront pricing information, including any additional fees or taxes, allowing clients to budget accordingly and avoid unexpected expenses. This transparency builds trust and helps to create a positive rental experience.</p>
+     
+    </div>
+  </div>
+</div>
+<!-- Our Services End -->
+
+
+<!-- Customer Review start-->
+
+  <section class="review bg-dark" id="reviews">
+    
+    <div class="container  pt-5">
+      <div class="" >
+       <h2 class="text-light  border-bottom">Customer Reviews</h2>
+
+      
+      </div>
+   </div>
+
+    <div class="container">
+
+      <div class="row mt-5 ">
+        
+        <div class="col-lg-4 mb-5 text-start">
+          <img  class="" src="./assets/images/customer-1.jpg" alt="" width="" height="140">
+          <h4 class="fw-normal text-light mt-3">Prashant Verma</h4>
+          <p class="text-white-50 ">" As a local business owner, I frequently use this website to find accommodations for out-of-town clients and colleagues. "</p>  
+        </div>
+        
+        <div class="col-lg-4 mb-5 text-start">
+          <img  class="" src="./assets/images/customer-2.jpg" alt="" width="" height="140">
+          <h4 class="fw-normal text-light mt-3">Vijay Bhanu</h4>
+          <p class="text-white-50 ">" Finding affordable housing in my city can be challenging, but this website has been a lifesaver. "</p>  
+        </div>
+        
+        <div class="col-lg-4 mb-5 text-start">
+         <img  class="" src="./assets/images/cutomer-6.jpg" alt="" width="" height="140">
+          <h4 class="fw-normal text-light mt-3">Adarsh Tiwari</h4>
+          <p class="text-white-50 ">" I recently moved to a new city and needed a temporary place to stay while I searched for a permanent home. This website made it easy to find short-term rentals in my desired neighborhood. " </p>  
+        </div>
+
+    </div>
+
+  </section>
+
+<!-- Customers Review End-->
+
+<!-- Footer Starts -->
+
+<footer class="bg-dark bg-footer" style="margin-top: 80px;" id="about">
+
+    <div class="container">
+       <div class="row ">
+  
+            <div class="col-lg-6">
+              <h5 class="text-light">About Us</h5>
+              <p class="text-light">At Ghar Sansaar, we believe that every journey should begin with a comfortable place to call home. That's why we're dedicated to providing you with the perfect accommodations for your next adventure.</p>
+              <p class="text-light"> <i class="fa fa-location"></i> 123 456 897</p>
+              <p class="text-light"> <i class="fa fa-phone"></i>  (+91) 0123456789</p>
+              <p class="text-light"> <i class="fa fa-envelope"></i>  info@gmail.com</p>
+            </div>
+  
+            <div class="col-lg-3">
+              <h5 class="text-light"> Quick Links</h5>
+              <ul class="list-unstyled">
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#property">Properties</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#reviews">Review</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3">
+              <h5 class="text-light"> Stay Connected</h5>
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instragram</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+              </ul>
+            </div>
+       </div>
+  
+       <hr>
+  
+       <div class="row"> 
+        <div class="col-lg-12">
+          <p class="text-center text-light">
+            Copyright &copy; 2024 <a href="#">Ghar Sansaar</a>. All Rights Reserved.
+          </p>
+        </div>
+       </div>
+    </div>
+  
+  </footer>
+  
+  <!-- Footer Ends -->
+
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

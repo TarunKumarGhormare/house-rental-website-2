@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghar Sansaar</title>
+
+    <link rel="stylesheet" href="style.css">  
+
+      <!-- font link -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+      
+    
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+   
+
+</head>
+<body>
+
+ <!-- Navbar start -->
+ <section class="navbar">
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <p class="logo_text"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><path d="M 32 3 L 1 28 L 1.4921875 28.654297 C 2.8591875 30.477297 5.4694688 30.791703 7.2304688 29.345703 L 32 9 L 56.769531 29.345703 C 58.530531 30.791703 61.140812 30.477297 62.507812 28.654297 L 63 28 L 54 20.742188 L 54 8 L 45 8 L 45 13.484375 L 32 3 z M 32 13 L 8 32 L 8 56 L 56 56 L 56 35 L 32 13 z M 26 34 L 38 34 L 38 52 L 26 52 L 26 34 z"/></svg>  Ghar Sansaar</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mg-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#property">Properties</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#services">Services</a>
+            </li>
+
+           
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#reviews">Reviews</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About us</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link  " href="contact.html">Contact Us</a>
+            </li>
+
+            <li class="nav-item login-button">
+              <a class="nav-link btn text-white bg-dark px-3 mx-3 rounded-0" href="login.html">Login</a>
+            </li>
+          </ul>
+          
+          
+         
+        </div>
+      </div>
+    </nav>
+  
+</section>
+
+<!-- Navbar Ends -->
+
+    <!-- Contact Section starts -->
+
+    <section>
+      <div class="container mb-5">
+        <div class="col-md-12 col-lg-8" style="margin-top: 150px;">
+        <h1 class="text-single"> Contact Us</h1>
+        </div>
+      </div>
+
+      <div class="contact mt-5">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-7">
+                <form>
+                  <div class="row g-3">
+
+                    <div class="col-md-6">
+                      <label for="your-name" class="form-label">Your Name</label>
+                      <input type="text" class="form-control border-dark " id="your-name" name="your-name" required>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="your-surname" class="form-label">Your Surname</label>
+                      <input type="text" class="form-control border-dark" id="your-surname" name="your-surname" required>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="your-email" class="form-label">Your Email</label>
+                      <input type="email" class="form-control border-dark" id="your-email" name="your-email" required>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="your-subject" class="form-label">Your Subject</label>
+                      <input type="text" class="form-control border-dark" id="your-subject" name="your-subject">
+                    </div>
+
+                    <div class="col-md-12">
+                      <label for="your-message" class="form-label">Your Message</label>
+                      <textarea name="your-message" id="your-message" class="form-control border-dark" rows="5" required></textarea>
+                    </div>
+
+                    <div class="mt-3 mb-5">
+                      <button class="btn text-white bg-dark px-3 btn-lg rounded-0" type="sbmit">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+
+              <div id="map" class="contact-map col-lg-5 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510586103!2d76.76355775232423!3d28.644287346866466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1707385649429!5m2!1sen!2sin" width="530" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section ends -->
+
+
+
+<!-- Footer Starts -->
+
+<footer class="bg-dark bg-footer" style="margin-top: 80px;" id="about">
+
+  <div class="container">
+     <div class="row ">
+
+          <div class="col-lg-6">
+            <h5 class="text-light">About Us</h5>
+            <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium animi distinctio pariatur nostrum explicabo? Ipsam, cupiditate! Nam aliquid aperiam aut!</p>
+            <p class="text-light"> <i class="fa fa-location"></i> 123 456 897</p>
+            <p class="text-light"> <i class="fa fa-phone"></i>  (+91) 0123456789</p>
+            <p class="text-light"> <i class="fa fa-envelope"></i>  info@gmail.com</p>
+          </div>
+
+          <div class="col-lg-3">
+            <h5 class="text-light"> Quick Links</h5>
+            <ul class="list-unstyled">
+              <li> <a href="index.html">Home</a></li>
+              <li> <a href="index.html#property">Properties</a></li>
+              <li> <a href="index.html#services">Services</a></li>
+              <li> <a href="index.html#reviews">Review</a></li>
+              <li> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h5 class="text-light"> Stay Connected</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i> Instragram</a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+          </div>
+     </div>
+
+     <hr>
+
+     <div class="row"> 
+      <div class="col-lg-12">
+        <p class="text-center text-light">
+          Copyright &copy; 2024 <a href="#">Ghar Sansaar</a>. All Rights Reserved.
+        </p>
+      </div>
+     </div>
+  </div>
+
+</footer>
+
+<!-- Footer Ends -->
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
